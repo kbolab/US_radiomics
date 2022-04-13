@@ -1,4 +1,5 @@
 # US_radiomics
+Requirement: Download and unzip DCMTK libraries: https://dicom.offis.de/dcmtk.php.en (look for “DCMTK - executable binaries” and choose you OS architecture)
 
 Directory structure: each image folder contains two dcm file: root_path/pat0/image.dcm (the US image) and root_path/pat0/image_m.dcm (the corresponding RTStruct). The only requsite on the file names is that the RTStruct has to contain the pattern "_m"
 
